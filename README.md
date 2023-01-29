@@ -10,7 +10,11 @@ df -h
 
 fusermount -qzu /gpfs/milgram/pi/yildirim/wb338/gdrive
 
+#### ===============list remote ===
+rclone list remote:milgram
 
+#### ===============check remote vs local ===
+rclone check <LOCAL_PATH> remote:milgram --one-way
 #### ===============delete remote ===
 rclone delete remote:milgram
 #### ===============copy local to remote ===
