@@ -22,3 +22,6 @@ rclone copy /gpfs/milgram/project/yildirim/wb338/GEN_MASS_NEW_PIPELINE_H5 remote
 
 #### =============== sync remote to local ===
 rclone sync remote: /gpfs/milgram/pi/yildirim/wb338/gdrive
+
+
+ps aux | grep PID # check whether the job's still running
