@@ -9,3 +9,13 @@ df -h
 #### ===============  Unmount ============
 
 fusermount -qzu /gpfs/milgram/pi/yildirim/wb338/gdrive
+
+
+### ==== delete remote ===
+rclone delete remote:milgram
+
+### ==== copy local to remote ===
+rclone copy /gpfs/milgram/project/yildirim/wb338/GEN_MASS_NEW_PIPELINE_H5 remote:milgram
+
+### ==== sync remote to local ===
+rclone sync remote: /gpfs/milgram/pi/yildirim/wb338/gdrive
