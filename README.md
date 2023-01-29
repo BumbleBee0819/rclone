@@ -6,6 +6,6 @@ rclone mount remote: /gpfs/milgram/pi/yildirim/wb338/gdrive --copy-links --no-gz
 
 #### ===============  Check if mounted successfully ====
 df -h
-### ================= Unmount ============
+#### ===============  Unmount ============
 
 fusermount -qzu /gpfs/milgram/pi/yildirim/wb338/gdrive
