@@ -18,7 +18,7 @@ rclone check <LOCAL_PATH> remote:milgram --one-way
 #### ===============delete remote ===
 rclone delete remote:milgram
 #### ===============copy local to remote ===
-rclone copy /gpfs/milgram/project/yildirim/wb338/GEN_MASS_NEW_PIPELINE_H5 remote:milgram
+rclone copy /gpfs/milgram/project/yildirim/wb338/GEN_MASS_NEW_PIPELINE_H5 remote:milgram –copy-links
 
 #### =============== sync remote to local ===
 rclone sync remote: /gpfs/milgram/pi/yildirim/wb338/gdrive
